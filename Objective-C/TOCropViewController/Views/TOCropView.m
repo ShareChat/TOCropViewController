@@ -20,9 +20,9 @@
 //  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
 //  IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import "TOCropViewController/include/Public/TOCropView.h"
-#import "TOCropOverlayView.h"
-#import "TOCropScrollView.h"
+#import "TOCropViewController/include/TOCropView.h"
+#import "TOCropViewController/include/TOCropOverlayView.h"
+#import "TOCropViewController/include/TOCropScrollView.h"
 
 #define TOCROPVIEW_BACKGROUND_COLOR [UIColor colorWithWhite:0.12f alpha:1.0f]
 
