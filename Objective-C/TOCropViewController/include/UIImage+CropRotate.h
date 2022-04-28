@@ -1,1 +1,1 @@
-../Categories/UIImage+CropRotate.h
+#import "../Categories/UIImage+CropRotate.h"
