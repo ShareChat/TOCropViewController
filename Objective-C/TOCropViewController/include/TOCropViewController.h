@@ -7,7 +7,6 @@
 #import "TOCropViewConstants.h"
 #import "UIImage+CropRotate.h"
 #else
-#import <MyModule/SomeHeader.h>
 #import <TOCropViewController/ViewController.h>
 #import <TOCropViewController/TOCropView.h>
 #import <TOCropViewController/TOCropToolbar.h>
