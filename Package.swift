@@ -34,7 +34,7 @@ let package = Package(
             resources: [.process("Resources")],
             publicHeadersPath: "include",
             cSettings: [
-                .headerSearchPath("../"),
+                .headerSearchPath(""),
             ]
         ),
         .target(
