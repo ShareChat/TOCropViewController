@@ -1,4 +1,0 @@
-module TOCropViewController {
-    umbrella "TOCropViewController.h"
-    export *
-}
