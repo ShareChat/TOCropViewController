@@ -1,1 +1,10 @@
-../TOCropViewController.h
+#import "../TOCropController.h"
+#import "../Views/TOCropView.h"
+#import "../Views/TOCropToolbar.h"
+#import "../Constants/TOCropViewConstants.h"
+#import "../Categories/UIImage+CropRotate.h"
+#import "../Models/TOActivityCroppedImageProvider.h"
+#import "../Views/TOCropOverlayView.h"
+#import "../Views/TOCropScrollView.h"
+#import "../Models/TOCropViewControllerTransitioning.h"
+#import "../Models/TOCroppedImageAttributes.h"
