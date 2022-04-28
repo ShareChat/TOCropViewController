@@ -30,9 +30,12 @@ let package = Package(
         .target(
             name: "TOCropViewController",
             path: "Objective-C/TOCropViewController/",
-			exclude:["Supporting/Info.plist"],
+			exclude:["Supporting/", "Resources/"],
             resources: [.process("Resources")],
-            publicHeadersPath: "include"
+            publicHeadersPath: "include/Public",
+            cSettings: [
+                .headerSearchPath("../"),
+            ]
         ),
         .target(
             name: "CropViewController",

@@ -21,7 +21,7 @@
 //  IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import "TOActivityCroppedImageProvider.h"
-#import "UIImage+CropRotate.h"
+#import "TOCropViewController/include/Public/UIImage+CropRotate.h"
 
 @interface TOActivityCroppedImageProvider ()
 

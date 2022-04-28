@@ -22,7 +22,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "TOCropViewController.h"
+#import "TOCropController.h"
 #import "TOCropView.h"
 #import "TOCropToolbar.h"
 #import "TOCropViewConstants.h"
