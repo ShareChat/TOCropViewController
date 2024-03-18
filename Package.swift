@@ -7,7 +7,7 @@ var platforms: [SupportedPlatform] {
     #if compiler(<5.9)
         return [.iOS(.v11)]
     #else
-        // Xcode 12 (which ships with Swift 5.3) drops support for iOS 8
+        // Xcode 15.2 (which ships with Swift 5.9) drops support for iOS 11
         return[.iOS(.v12)]
     #endif
 }
